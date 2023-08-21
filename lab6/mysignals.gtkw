@@ -1,0 +1,87 @@
+[*]
+[*] GTKWave Analyzer v3.3.109 (w)1999-2020 BSI
+[*] Thu Dec 16 12:21:37 2021
+[*]
+[dumpfile] "/home/kon/Documents/Programming/mips_assembly/Lab6/Lab6_input_files/tb_dumpfile.vcd"
+[dumpfile_mtime] "Wed Dec 15 11:47:04 2021"
+[dumpfile_size] 29099
+[savefile] "/home/kon/Documents/Programming/mips_assembly/Lab6/Lab6_input_files/mysignals.gtkw"
+[timestart] 0
+[size] 1920 1006
+[pos] -1 -1
+*-13.507552 137540 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[treeopen] cpu_tb.cpu0.
+[treeopen] cpu_tb.cpu0.cpu_DMem.
+[treeopen] cpu_tb.cpu0.ctrl_bypass_ex.
+[sst_width] 277
+[signals_width] 298
+[sst_expanded] 1
+[sst_vpaned_height] 281
+@24
+cpu_tb.cpu0.reset
+cpu_tb.cpu0.clock
+@200
+-DMem
+@24
+cpu_tb.cpu0.cpu_DMem.dout[31:0]
+cpu_tb.cpu0.cpu_DMem.din[31:0]
+@28
+cpu_tb.cpu0.cpu_DMem.wen
+@200
+-RegFile
+@24
+cpu_tb.cpu0.cpu_regs.\data[2][31:0]
+cpu_tb.cpu0.cpu_regs.\data[4][31:0]
+cpu_tb.cpu0.cpu_regs.\data[8][31:0]
+cpu_tb.cpu0.cpu_regs.\data[9][31:0]
+cpu_tb.cpu0.cpu_regs.\data[10][31:0]
+cpu_tb.cpu0.cpu_regs.\data[13][31:0]
+cpu_tb.cpu0.cpu_regs.\data[14][31:0]
+cpu_tb.cpu0.cpu_regs.\data[15][31:0]
+cpu_tb.cpu0.cpu_regs.\data[16][31:0]
+cpu_tb.cpu0.cpu_regs.\data[18][31:0]
+cpu_tb.cpu0.cpu_regs.\data[19][31:0]
+cpu_tb.cpu0.cpu_regs.\data[20][31:0]
+cpu_tb.cpu0.cpu_regs.\data[22][31:0]
+cpu_tb.cpu0.cpu_regs.\data[28][31:0]
+cpu_tb.cpu0.cpu_regs.\data[29][31:0]
+cpu_tb.cpu0.cpu_regs.\data[31][31:0]
+@200
+-ALU
+@24
+cpu_tb.cpu0.cpu_alu.out[31:0]
+cpu_tb.cpu0.cpu_alu.inA[31:0]
+cpu_tb.cpu0.cpu_alu.inB[31:0]
+@200
+-ALU Results
+@24
+cpu_tb.cpu0.EXMEM_ALUOut[31:0]
+cpu_tb.cpu0.MEMWB_ALUOut[31:0]
+@201
+-Instr
+@22
+cpu_tb.cpu0.instr[31:0]
+cpu_tb.cpu0.IFID_instr[31:0]
+@200
+-Bypass Control Unit
+@28
+cpu_tb.cpu0.ctrl_bypass_ex.bypassA[1:0]
+cpu_tb.cpu0.ctrl_bypass_ex.bypassB[1:0]
+@22
+cpu_tb.cpu0.ctrl_bypass_ex.idex_rs[4:0]
+cpu_tb.cpu0.ctrl_bypass_ex.idex_rt[4:0]
+cpu_tb.cpu0.ctrl_bypass_ex.exmem_rd[4:0]
+@28
+cpu_tb.cpu0.ctrl_bypass_ex.exmem_regwrite
+@22
+cpu_tb.cpu0.ctrl_bypass_ex.memwb_rd[4:0]
+@28
+cpu_tb.cpu0.ctrl_bypass_ex.memwb_regwrite
+cpu_tb.cpu0.hazard_detection.PCWrite
+cpu_tb.cpu0.hazard_detection.IF_DWrite
+cpu_tb.cpu0.hazard_detection.IF_CTRL_MUX
+@22
+cpu_tb.cpu0.hazard_detection.IFID_rt[4:0]
+[pattern_trace] 1
+[pattern_trace] 0

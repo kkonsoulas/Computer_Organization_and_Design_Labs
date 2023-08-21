@@ -1,0 +1,1055 @@
+$date
+	Tue Dec  7 16:49:38 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module cpu_tb $end
+$var reg 1 ! clock $end
+$var reg 1 " reset $end
+$var integer 32 # i [31:0] $end
+$scope module cpu0 $end
+$var wire 32 $ ALUInA [31:0] $end
+$var wire 32 % ALUInB [31:0] $end
+$var wire 1 ! clock $end
+$var wire 1 " reset $end
+$var wire 5 & wAddr [4:0] $end
+$var wire 32 ' wRegData [31:0] $end
+$var wire 1 ( zero $end
+$var wire 32 ) rdB [31:0] $end
+$var wire 32 * rdA [31:0] $end
+$var wire 6 + opcode [5:0] $end
+$var wire 5 , instr_rt [4:0] $end
+$var wire 5 - instr_rs [4:0] $end
+$var wire 5 . instr_rd [4:0] $end
+$var wire 32 / instr [31:0] $end
+$var wire 6 0 func [5:0] $end
+$var wire 1 1 RegWrite $end
+$var wire 32 2 ALUOut [31:0] $end
+$var wire 4 3 ALUOp [3:0] $end
+$var reg 32 4 PC [31:0] $end
+$scope module ALUInst $end
+$var wire 1 ( zero $end
+$var wire 32 5 out [31:0] $end
+$var wire 4 6 op [3:0] $end
+$var wire 32 7 inB [31:0] $end
+$var wire 32 8 inA [31:0] $end
+$upscope $end
+$scope module cpu_IMem $end
+$var wire 32 9 addr [31:0] $end
+$var wire 32 : din [31:0] $end
+$var wire 1 ; ren $end
+$var wire 1 < wen $end
+$var wire 32 = dout [31:0] $end
+$upscope $end
+$scope module cpu_fsm $end
+$var wire 6 > func [5:0] $end
+$var wire 6 ? opcode [5:0] $end
+$var reg 4 @ ALUOp [3:0] $end
+$var reg 1 1 RegWrite $end
+$upscope $end
+$scope module cpu_regs $end
+$var wire 1 ! clock $end
+$var wire 5 A raA [4:0] $end
+$var wire 5 B raB [4:0] $end
+$var wire 32 C rdA [31:0] $end
+$var wire 32 D rdB [31:0] $end
+$var wire 1 " reset $end
+$var wire 5 E wa [4:0] $end
+$var wire 32 F wd [31:0] $end
+$var wire 1 1 wen $end
+$var integer 32 G i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 H \data[0] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 I \data[0] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 J \data[1] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 K \data[1] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 L \data[2] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 M \data[2] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 N \data[3] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 O \data[3] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 P \data[4] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 Q \data[4] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 R \data[5] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 S \data[5] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 T \data[6] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 U \data[6] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 V \data[7] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 W \data[7] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 X \data[8] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 Y \data[8] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 Z \data[9] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 [ \data[9] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 \ \data[10] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 ] \data[10] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 ^ \data[11] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 _ \data[11] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 ` \data[12] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 a \data[12] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 b \data[13] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 c \data[13] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 d \data[14] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 e \data[14] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 f \data[15] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 g \data[15] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 h \data[16] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 i \data[16] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 j \data[17] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 k \data[17] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 l \data[18] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 m \data[18] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 n \data[19] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 o \data[19] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 p \data[20] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 q \data[20] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 r \data[21] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 s \data[21] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 t \data[22] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 u \data[22] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 v \data[23] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 w \data[23] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 x \data[24] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 y \data[24] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 z \data[25] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 { \data[25] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 | \data[26] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 } \data[26] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 ~ \data[27] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 !" \data[27] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 "" \data[28] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 #" \data[28] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 $" \data[29] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 %" \data[29] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 &" \data[30] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 '" \data[30] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 (" \data[31] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_IMem $end
+$var reg 32 )" \data[31] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx )"
+b0 ("
+bx '"
+b0 &"
+bx %"
+b0 $"
+bx #"
+b0 ""
+bx !"
+b0 ~
+bx }
+b0 |
+bx {
+b0 z
+bx y
+b0 x
+bx w
+b0 v
+bx u
+b0 t
+bx s
+b0 r
+bx q
+b0 p
+bx o
+b0 n
+bx m
+b0 l
+bx k
+b0 j
+bx i
+b0 h
+bx g
+b0 f
+bx e
+b0 d
+bx c
+b0 b
+bx a
+b0 `
+bx _
+b0 ^
+bx ]
+b0 \
+bx [
+b0 Z
+bx Y
+b0 X
+bx W
+b0 V
+bx U
+b0 T
+bx S
+b0 R
+b10001011111001000000101010 Q
+b0 P
+b10000100101000100000100100 O
+b0 N
+b1111011010111100000100101 M
+b0 L
+b1001001000100100000100010 K
+b0 J
+b1000100000100000000100000 I
+b0 H
+b100000 G
+bx F
+bx E
+bx D
+bx C
+bx B
+bx A
+bx @
+bx ?
+bx >
+bx =
+0<
+1;
+b0 :
+b111111111111111111111111111111 9
+bx 8
+bx 7
+bx 6
+bx 5
+b11111111111111111111111111111100 4
+bx 3
+bx 2
+x1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+bx +
+bx *
+bx )
+x(
+bx '
+bx &
+bx %
+bx $
+b100000 #
+0"
+1!
+$end
+#5000
+b0 ("
+b0 &"
+b0 $"
+b0 ""
+b0 ~
+b0 |
+b0 z
+b0 x
+b0 v
+b0 t
+b0 r
+b0 p
+b0 n
+b0 l
+b0 j
+b0 h
+b0 f
+b0 d
+b0 b
+b0 `
+b0 ^
+b0 \
+b0 Z
+b0 X
+b0 V
+b0 T
+b0 R
+b0 P
+b0 N
+b0 L
+b0 J
+b0 H
+b100000 G
+0!
+#10000
+1!
+#15000
+b0 ("
+b0 &"
+b0 $"
+b0 ""
+b0 ~
+b0 |
+b0 z
+b0 x
+b0 v
+b0 t
+b0 r
+b0 p
+b0 n
+b0 l
+b0 j
+b0 h
+b0 f
+b0 d
+b0 b
+b0 `
+b0 ^
+b0 \
+b0 Z
+b0 X
+b0 V
+b0 T
+b0 R
+b0 P
+b0 N
+b0 L
+b0 J
+b0 H
+b100000 G
+0!
+#20000
+1!
+#25000
+b0 ("
+b0 &"
+b0 $"
+b0 ""
+b0 ~
+b0 |
+b0 z
+b0 x
+b0 v
+b0 t
+b0 r
+b0 p
+b0 n
+b0 l
+b0 j
+b0 h
+b0 f
+b0 d
+b0 b
+b0 `
+b0 ^
+b0 \
+b0 Z
+b0 X
+b0 V
+b0 T
+b0 R
+b0 P
+b0 N
+b0 L
+b0 J
+b0 H
+b100000 G
+0!
+#30000
+1!
+#35000
+b0 ("
+b0 &"
+b0 $"
+b0 ""
+b0 ~
+b0 |
+b0 z
+b0 x
+b0 v
+b0 t
+b0 r
+b0 p
+b0 n
+b0 l
+b0 j
+b0 h
+b0 f
+b0 d
+b0 b
+b0 `
+b0 ^
+b0 \
+b0 Z
+b0 X
+b0 V
+b0 T
+b0 R
+b0 P
+b0 N
+b0 L
+b0 J
+b0 H
+b100000 G
+0!
+#40000
+0(
+b11000 '
+b11000 2
+b11000 5
+b11000 F
+b10 3
+b10 6
+b10 @
+11
+b1000 &
+b1000 .
+b1000 E
+b10000 %
+b10000 )
+b10000 7
+b10000 D
+b10000 ,
+b10000 B
+b1000 $
+b1000 *
+b1000 8
+b1000 C
+b1000 -
+b1000 A
+b100000 0
+b100000 >
+b0 +
+b0 ?
+b1000100000100000000100000 /
+b1000100000100000000100000 =
+b0 9
+b0 4
+1!
+b11111 ("
+b11110 &"
+b11101 $"
+b11100 ""
+b11011 ~
+b11010 |
+b11001 z
+b11000 x
+b10111 v
+b10110 t
+b10101 r
+b10100 p
+b10011 n
+b10010 l
+b10001 j
+b10000 h
+b1111 f
+b1110 d
+b1101 b
+b1100 `
+b1011 ^
+b1010 \
+b1001 Z
+b1000 X
+b111 V
+b110 T
+b101 R
+b100 P
+b11 N
+b10 L
+b1 J
+b0 H
+b100000 #
+1"
+#45000
+b101000 '
+b101000 2
+b101000 5
+b101000 F
+b11000 X
+b11000 $
+b11000 *
+b11000 8
+b11000 C
+0!
+#50000
+0(
+b101 '
+b101 2
+b101 5
+b101 F
+b110 3
+b110 6
+b110 @
+b1001 &
+b1001 .
+b1001 E
+b100 %
+b100 )
+b100 7
+b100 D
+b100 ,
+b100 B
+b1001 $
+b1001 *
+b1001 8
+b1001 C
+b1001 -
+b1001 A
+b100010 0
+b100010 >
+b1001001000100100000100010 /
+b1001001000100100000100010 =
+b1 9
+b100 4
+1!
+#55000
+b1 '
+b1 2
+b1 5
+b1 F
+b101 Z
+b101 $
+b101 *
+b101 8
+b101 C
+0!
+#60000
+b1111 '
+b1111 2
+b1111 5
+b1111 F
+b1 3
+b1 6
+b1 @
+b1111 &
+b1111 .
+b1111 E
+b1101 %
+b1101 )
+b1101 7
+b1101 D
+b1101 ,
+b1101 B
+b1111 $
+b1111 *
+b1111 8
+b1111 C
+b1111 -
+b1111 A
+b100101 0
+b100101 >
+b1111011010111100000100101 /
+b1111011010111100000100101 =
+b10 9
+b1000 4
+1!
+#65000
+b1111 f
+0!
+#70000
+b10000 '
+b10000 2
+b10000 5
+b10000 F
+b0 3
+b0 6
+b0 @
+b10001 &
+b10001 .
+b10001 E
+b10010 %
+b10010 )
+b10010 7
+b10010 D
+b10010 ,
+b10010 B
+b10000 $
+b10000 *
+b10000 8
+b10000 C
+b10000 -
+b10000 A
+b100100 0
+b100100 >
+b10000100101000100000100100 /
+b10000100101000100000100100 =
+b11 9
+b1100 4
+1!
+#75000
+b10000 j
+0!
+#80000
+1(
+b0 '
+b0 2
+b0 5
+b0 F
+b111 3
+b111 6
+b111 @
+b10010 &
+b10010 .
+b10010 E
+b1111 %
+b1111 )
+b1111 7
+b1111 D
+b1111 ,
+b1111 B
+b10001 -
+b10001 A
+b101010 0
+b101010 >
+b10001011111001000000101010 /
+b10001011111001000000101010 =
+b100 9
+b10000 4
+1!
+#85000
+b0 l
+0!
+#90000
+x(
+bx '
+bx 2
+bx 5
+bx F
+b0 3
+b0 6
+b0 @
+01
+bx &
+bx .
+bx E
+bx %
+bx )
+bx 7
+bx D
+bx ,
+bx B
+bx $
+bx *
+bx 8
+bx C
+bx -
+bx A
+bx 0
+bx >
+bx +
+bx ?
+bx /
+bx =
+b101 9
+b10100 4
+1!
+#95000
+0!
+#100000
+b110 9
+b11000 4
+1!
+#105000
+0!
+#110000
+b111 9
+b11100 4
+1!
+#115000
+0!
+#120000
+b1000 9
+b100000 4
+1!
+#125000
+0!
+#130000
+b1001 9
+b100100 4
+1!
+#135000
+0!
+#140000
+b1010 9
+b101000 4
+1!
+#145000
+0!
+#150000
+b1011 9
+b101100 4
+1!

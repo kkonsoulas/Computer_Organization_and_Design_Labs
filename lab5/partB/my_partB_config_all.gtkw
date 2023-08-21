@@ -1,0 +1,85 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Tue Dec  7 07:57:41 2021
+[*]
+[dumpfile] "/home/pastoikos/Documents/ECE219_Material/Labs/Lab5_SingleCycle/lab5_inputs/partB/tb_dumpfile.vcd"
+[dumpfile_mtime] "Tue Dec  7 07:43:40 2021"
+[dumpfile_size] 386774
+[savefile] "/home/pastoikos/Documents/ECE219_Material/Labs/Lab5_SingleCycle/lab5_inputs/partB/my_partB_config.gtkw"
+[timestart] 0
+[size] 1848 1016
+[pos] -1 -1
+*-17.000000 980000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[treeopen] cpu_tb.cpu0.
+[sst_width] 233
+[signals_width] 285
+[sst_expanded] 1
+[sst_vpaned_height] 289
+@28
+cpu_tb.cpu0.cpu_regs.clock
+cpu_tb.cpu0.cpu_regs.reset
+@200
+-
+-ALU operation
+@420
+cpu_tb.cpu0.cpu_alu.inA[31:0]
+cpu_tb.cpu0.cpu_alu.inB[31:0]
+@421
+cpu_tb.cpu0.cpu_alu.out[31:0]
+@24
+cpu_tb.cpu0.cpu_alu.op[3:0]
+cpu_tb.cpu0.cpu_alu.zero
+@200
+-
+-Regs info
+@24
+cpu_tb.cpu0.cpu_regs.raA[4:0]
+cpu_tb.cpu0.cpu_regs.raB[4:0]
+cpu_tb.cpu0.cpu_regs.wa[4:0]
+@420
+cpu_tb.cpu0.cpu_regs.wd[31:0]
+@200
+-
+-Register memory
+@420
+cpu_tb.cpu0.cpu_regs.\data[2][31:0]
+cpu_tb.cpu0.cpu_regs.\data[8][31:0]
+cpu_tb.cpu0.cpu_regs.\data[9][31:0]
+cpu_tb.cpu0.cpu_regs.\data[10][31:0]
+cpu_tb.cpu0.cpu_regs.\data[16][31:0]
+cpu_tb.cpu0.cpu_regs.\data[17][31:0]
+cpu_tb.cpu0.cpu_regs.\data[18][31:0]
+cpu_tb.cpu0.cpu_regs.\data[19][31:0]
+@200
+-
+-Instruction memory
+@22
+cpu_tb.cpu0.cpu_IMem.\data[0][31:0]
+cpu_tb.cpu0.cpu_IMem.\data[1][31:0]
+cpu_tb.cpu0.cpu_IMem.\data[2][31:0]
+cpu_tb.cpu0.cpu_IMem.\data[3][31:0]
+cpu_tb.cpu0.cpu_IMem.\data[4][31:0]
+cpu_tb.cpu0.cpu_IMem.dout[31:0]
+@420
+cpu_tb.cpu0.PC[31:0]
+@28
+cpu_tb.cpu0.SeqOrJump[1:0]
+@200
+-
+-FSM 
+@24
+cpu_tb.cpu0.cpu_fsm.opcode[5:0]
+cpu_tb.cpu0.cpu_fsm.func[5:0]
+cpu_tb.cpu0.cpu_fsm.ALUOp[3:0]
+@200
+-
+-Data memory
+@420
+cpu_tb.cpu0.cpu_DMem.\data[1000][31:0]
+cpu_tb.cpu0.cpu_DMem.\data[1001][31:0]
+cpu_tb.cpu0.cpu_DMem.\data[1002][31:0]
+cpu_tb.cpu0.cpu_DMem.\data[1003][31:0]
+cpu_tb.cpu0.cpu_DMem.\data[1004][31:0]
+[pattern_trace] 1
+[pattern_trace] 0

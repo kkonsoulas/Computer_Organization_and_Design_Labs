@@ -1,0 +1,55 @@
+[*]
+[*] GTKWave Analyzer v3.3.109 (w)1999-2020 BSI
+[*] Fri Dec 17 10:07:10 2021
+[*]
+[dumpfile] "/home/kon/Documents/Programming/mips_assembly/Lab6/Lab6_input_files/mixedlw_dumpfile.vcd"
+[dumpfile_mtime] "Fri Dec 17 09:46:19 2021"
+[dumpfile_size] 20164
+[savefile] "/home/kon/Documents/Programming/mips_assembly/Lab6/Lab6_input_files/lwmixed_signals.gtkw"
+[timestart] 0
+[size] 1920 1006
+[pos] -921 -407
+*-14.601166 75000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] lwmixed.
+[treeopen] lwmixed.cpu0.
+[sst_width] 238
+[signals_width] 240
+[sst_expanded] 1
+[sst_vpaned_height] 281
+@204
+-BYPASX
+@24
+lwmixed.cpu0.ctrl_bypass_ex.bypassA[1:0]
+lwmixed.cpu0.ctrl_bypass_ex.bypassB[1:0]
+lwmixed.cpu0.ctrl_bypass_ex.exmem_rd[4:0]
+lwmixed.cpu0.ctrl_bypass_ex.exmem_regwrite
+lwmixed.cpu0.ctrl_bypass_ex.idex_rs[4:0]
+lwmixed.cpu0.ctrl_bypass_ex.idex_rt[4:0]
+lwmixed.cpu0.ctrl_bypass_ex.memwb_rd[4:0]
+lwmixed.cpu0.ctrl_bypass_ex.memwb_regwrite
+@204
+-HAZARD DETECTION
+@24
+lwmixed.cpu0.hazard_detection.IDEX_MemRead
+lwmixed.cpu0.hazard_detection.IDEX_rt[4:0]
+lwmixed.cpu0.hazard_detection.IFID_rs[4:0]
+lwmixed.cpu0.hazard_detection.IFID_rt[4:0]
+lwmixed.cpu0.hazard_detection.IF_CTRL_MUX
+lwmixed.cpu0.hazard_detection.IF_DWrite
+lwmixed.cpu0.hazard_detection.PCWrite
+@22
+lwmixed.cpu0.PC[31:0]
+@200
+-MEMORY
+@24
+lwmixed.cpu0.cpu_DMem.addr[31:0]
+lwmixed.cpu0.cpu_DMem.clock
+lwmixed.cpu0.cpu_DMem.din[31:0]
+lwmixed.cpu0.cpu_DMem.dout[31:0]
+lwmixed.cpu0.cpu_DMem.ren
+lwmixed.cpu0.cpu_DMem.reset
+lwmixed.cpu0.cpu_DMem.wen
+@29
+lwmixed.cpu0.clock
+[pattern_trace] 1
+[pattern_trace] 0

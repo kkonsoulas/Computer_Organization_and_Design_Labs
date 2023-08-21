@@ -1,0 +1,106 @@
+[*]
+[*] GTKWave Analyzer v3.3.108 (w)1999-2020 BSI
+[*] Thu Dec 02 13:14:36 2021
+[*]
+[dumpfile] "C:\Users\Olympia\Desktop\organization\Labs\Lab4\2161_2203_lab4\tb_dumpfile.vcd"
+[dumpfile_mtime] "Thu Dec 02 13:13:33 2021"
+[dumpfile_size] 15658
+[savefile] "C:\Users\Olympia\Desktop\organization\Labs\Lab4\2161_2203_lab4\my_config.gtkw"
+[timestart] 0
+[size] 1920 993
+[pos] -1947 -24
+*-16.142162 538000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[sst_width] 254
+[signals_width] 202
+[sst_expanded] 1
+[sst_vpaned_height] 316
+@421
+cpu_tb.clock
+cpu_tb.reset
+cpu_tb.op[3:0]
+cpu_tb.raA[4:0]
+cpu_tb.raB[4:0]
+cpu_tb.rdA[31:0]
+cpu_tb.rdB[31:0]
+cpu_tb.wa[4:0]
+cpu_tb.wen
+@601
+-
+-
+@421
+cpu_tb.regs.clock
+cpu_tb.regs.wa[4:0]
+cpu_tb.regs.wd[31:0]
+cpu_tb.regs.wen
+cpu_tb.regs.\data[0][31:0]
+cpu_tb.regs.\data[1][31:0]
+cpu_tb.regs.\data[2][31:0]
+cpu_tb.regs.\data[3][31:0]
+cpu_tb.regs.\data[4][31:0]
+@c00421
+cpu_tb.regs.\data[5][31:0]
+@29
+(0)cpu_tb.regs.\data[5][31:0]
+(1)cpu_tb.regs.\data[5][31:0]
+(2)cpu_tb.regs.\data[5][31:0]
+(3)cpu_tb.regs.\data[5][31:0]
+(4)cpu_tb.regs.\data[5][31:0]
+(5)cpu_tb.regs.\data[5][31:0]
+(6)cpu_tb.regs.\data[5][31:0]
+(7)cpu_tb.regs.\data[5][31:0]
+(8)cpu_tb.regs.\data[5][31:0]
+(9)cpu_tb.regs.\data[5][31:0]
+(10)cpu_tb.regs.\data[5][31:0]
+(11)cpu_tb.regs.\data[5][31:0]
+(12)cpu_tb.regs.\data[5][31:0]
+(13)cpu_tb.regs.\data[5][31:0]
+(14)cpu_tb.regs.\data[5][31:0]
+(15)cpu_tb.regs.\data[5][31:0]
+(16)cpu_tb.regs.\data[5][31:0]
+(17)cpu_tb.regs.\data[5][31:0]
+(18)cpu_tb.regs.\data[5][31:0]
+(19)cpu_tb.regs.\data[5][31:0]
+(20)cpu_tb.regs.\data[5][31:0]
+(21)cpu_tb.regs.\data[5][31:0]
+(22)cpu_tb.regs.\data[5][31:0]
+(23)cpu_tb.regs.\data[5][31:0]
+(24)cpu_tb.regs.\data[5][31:0]
+(25)cpu_tb.regs.\data[5][31:0]
+(26)cpu_tb.regs.\data[5][31:0]
+(27)cpu_tb.regs.\data[5][31:0]
+(28)cpu_tb.regs.\data[5][31:0]
+(29)cpu_tb.regs.\data[5][31:0]
+(30)cpu_tb.regs.\data[5][31:0]
+(31)cpu_tb.regs.\data[5][31:0]
+@1401601
+-group_end
+@421
+cpu_tb.regs.\data[6][31:0]
+cpu_tb.regs.\data[7][31:0]
+cpu_tb.regs.\data[8][31:0]
+cpu_tb.regs.\data[9][31:0]
+cpu_tb.regs.\data[10][31:0]
+cpu_tb.regs.\data[11][31:0]
+cpu_tb.regs.\data[12][31:0]
+cpu_tb.regs.\data[13][31:0]
+cpu_tb.regs.\data[14][31:0]
+cpu_tb.regs.\data[15][31:0]
+cpu_tb.regs.\data[16][31:0]
+cpu_tb.regs.\data[17][31:0]
+cpu_tb.regs.\data[18][31:0]
+cpu_tb.regs.\data[19][31:0]
+cpu_tb.regs.\data[20][31:0]
+cpu_tb.regs.\data[21][31:0]
+cpu_tb.regs.\data[22][31:0]
+cpu_tb.regs.\data[23][31:0]
+cpu_tb.regs.\data[24][31:0]
+cpu_tb.regs.\data[25][31:0]
+cpu_tb.regs.\data[26][31:0]
+cpu_tb.regs.\data[27][31:0]
+cpu_tb.regs.\data[28][31:0]
+cpu_tb.regs.\data[29][31:0]
+cpu_tb.regs.\data[30][31:0]
+cpu_tb.regs.\data[31][31:0]
+[pattern_trace] 1
+[pattern_trace] 0

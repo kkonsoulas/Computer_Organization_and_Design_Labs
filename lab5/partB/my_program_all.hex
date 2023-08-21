@@ -1,0 +1,25 @@
+@0 201003e8        // li $s0,1000 #the address ot the table
+@1 20080001        // li $t0,1
+@2 ae080000        // sw $t0,0($s0)
+@3 20080002        // li $t0,2
+@4 ae080001        // sw $t0,1($s0)
+@5 20080008        // li $t0,8
+@6 ae080002        // sw $t0,2($s0)
+@7 20080005        // li $t0,5
+@8 ae080003        // sw $t0,3($s0)
+@9 20080006        // li $t0,6
+@A ae080004        // sw $t0,4($s0)
+@B 22130005        // addi $s3,$s0,5 # the end of the address of table
+@C 22090000        // addi $t1,$s0,0 # the iterator i-1
+@D 220a0001        // addi $t2,$s0,1 # the iterator i
+@E 8d310000        // loop: lw $s1, 0($t1)
+@F 8d520000        // lw $s2, 0($t2)
+@10 0232402a       // slt $t0, $s1, $s2
+@11 11000003       // beq $t0,$0,exit_loop
+@12 21290001       // addi $t1, $t1,1
+@13 214a0001       // addi $t2, $t2,1
+@14 1553fff9       // bne $t2, $s3, loop
+@15 20020000       // exit_loop: li $v0,0
+@16 15530001       // bne $t2,$s3, not_asceding
+@17 20020001       // li $v0,1       # is asceding
+                   // not_asceding:
